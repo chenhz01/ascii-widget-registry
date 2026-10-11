@@ -1,0 +1,61 @@
+{
+  "schema": "awr/1",
+  "widgets": [
+    {
+      "id": "spinner-classic",
+      "kind": "loader",
+      "fps": 8,
+      "tags": ["spinner", "minimal"],
+      "frames": ["|", "/", "-", "\\"]
+    },
+    {
+      "id": "dots-bounce",
+      "kind": "loader",
+      "fps": 6,
+      "tags": ["dots"],
+      "frames": [".", "..", "...", ".."]
+    },
+    {
+      "id": "wave-small",
+      "kind": "scene",
+      "fps": 4,
+      "tags": ["ocean", "calm"],
+      "frames": [
+        "~~~~~~~\n~~~~~~~",
+        " ~~~~~~\n~~~~~~~",
+        "  ~~~~~\n~~~~~~~",
+        "   ~~~~\n~~~~~~~"
+      ]
+    },
+    {
+      "id": "bar-chart-mini",
+      "kind": "chart",
+      "fps": 2,
+      "tags": ["bars", "dashboard"],
+      "frames": [
+        "A █\nB ██\nC ███",
+        "A ██\nB ███\nC ████",
+        "A ███\nB ████\nC █████"
+      ]
+    },
+    {
+      "id": "logo-zhengming",
+      "kind": "logo",
+      "fps": 1,
+      "tags": ["brand", "static"],
+      "frames": [
+        " __ _\n/ _` |  zhengming\n\\__,_|  contributors"
+      ]
+    },
+    {
+      "id": "banner-dots",
+      "kind": "banner",
+      "fps": 2,
+      "tags": ["header"],
+      "frames": [
+        "* * * * * * * *\n  BANNER TEXT  \n* * * * * * * *",
+        "  * * * * * *  \n  BANNER TEXT  \n  * * * * * *  "
+      ]
+    }
+  ]
+}
