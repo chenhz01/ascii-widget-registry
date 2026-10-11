@@ -4,6 +4,8 @@ A JSON registry spec + distributor for ASCII/text animation assets. Widgets (loa
 
 **As of 2026-10-11.**
 
+<p align="center"><img src="docs/demo.gif" alt="demo" width="720"></p>
+
 ## Problem
 
 ASCII animation assets today are trapped in three bad containers: hard-coded in source files, pasted into docs as one-off snippets, or bundled inside framework components (React/Next) that a static generator or an agent CLI cannot use. There is no way to say "give me the `spinner` loader" across tools — no schema, no validation, no lookup.
